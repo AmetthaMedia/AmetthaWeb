@@ -1,7 +1,7 @@
 // File: /api/chat.js
 // VERSI TIDAK AMAN - HANYA UNTUK TES LOKAL!
 
-const { GoogleGenerativeAI } = require('@google/generative-ai');
+const { GoogleGenerativeAI } = require('@google/gemini-2.0-flash');
 
 // --- TEMPATKAN API KEY ANDA DI SINI ---
 // Ganti "API_KEY_ANDA_DI_SINI" dengan kunci API Anda yang sebenarnya.
