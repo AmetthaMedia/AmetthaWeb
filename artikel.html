@@ -4,66 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artikel - Amettha MEDIA</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Baca wawasan terbaru dari Digital Cortex Amettha MEDIA tentang AI, branding, UI/UX, dan tren teknologi kreatif terkini.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="main-header sticky">
-        <nav class="navbar">
+        <nav class="navbar container">
             <a href="index.html" class="nav-logo">Amettha MEDIA</a>
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">Tentang Kami</a></li>
-                <li><a href="services.html">Layanan</a></li>
-                <li><a href="portfolio.html">Portofolio</a></li>
-                <li><a href="artikel.html" class="active">Artikel</a></li>
-                <li><a href="contact.html">Kontak</a></li>
-            </ul>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a><a href="about.html" class="nav-link">Tentang</a><a href="services.html" class="nav-link">Layanan</a><a href="portfolio.html" class="nav-link">Portofolio</a><a href="artikel.html" class="nav-link active">Artikel</a><a href="contact.html" class="nav-link">Kontak</a>
+            </div>
+            <div class="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
         </nav>
     </header>
-
     <main>
         <section class="page-section">
             <div class="container">
-                <h1 class="page-title">Digital Cortex Insights</h1>
-                <p class="page-subtitle">Wawasan terbaru dari dunia teknologi kreatif, AI, dan branding digital.</p>
+                <h1 class="page-title" data-aos="fade-up">Digital Cortex Insights</h1>
+                <p class="page-subtitle" data-aos="fade-up" data-aos-delay="100">Wawasan terbaru dari dunia teknologi kreatif, AI, dan branding digital.</p>
                 <div class="artikel-grid">
-                    <div class="artikel-card glass-card">
-                        <img src="assets/artikel-1.jpg" alt="Artikel tentang AI">
-                        <div class="artikel-content">
-                            <span class="artikel-kategori">AI & Otomasi</span>
-                            <h3>Bagaimana AI Generatif Mengubah Wajah Content Marketing</h3>
-                            <p>Kecerdasan buatan bukan lagi masa depan, ia adalah kenyataan yang membentuk strategi pemasaran saat ini...</p>
-                            <a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="artikel-card glass-card">
-                        <img src="assets/artikel-2.jpg" alt="Artikel tentang Branding">
-                        <div class="artikel-content">
-                            <span class="artikel-kategori">Branding</span>
-                            <h3>5 Kesalahan Branding yang Harus Dihindari UMKM di Era Digital</h3>
-                            <p>Di tengah persaingan ketat, branding yang kuat adalah kunci. Hindari lima kesalahan umum ini...</p>
-                            <a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="artikel-card glass-card">
-                        <img src="assets/artikel-3.jpg" alt="Artikel tentang UI/UX">
-                        <div class="artikel-content">
-                            <span class="artikel-kategori">UI/UX</span>
-                            <h3>Prinsip Desain Imersif: Menciptakan Pengalaman Bukan Sekadar Tampilan</h3>
-                            <p>Lebih dari sekadar tombol dan menu, desain imersif mengajak pengguna masuk ke dalam sebuah cerita...</p>
-                            <a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
+                    <div class="artikel-card glass-card" data-aos="fade-up" data-aos-delay="200"><img loading="lazy" src="assets/artikel-1.jpg" alt="Artikel tentang AI"><div class="artikel-content"><span class="artikel-kategori">AI & Otomasi</span><h3>Bagaimana AI Generatif Mengubah Wajah Content Marketing</h3><p>Kecerdasan buatan bukan lagi masa depan, ia adalah kenyataan yang membentuk strategi pemasaran saat ini...</p><a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a></div></div>
+                    <div class="artikel-card glass-card" data-aos="fade-up" data-aos-delay="300"><img loading="lazy" src="assets/artikel-2.jpg" alt="Artikel tentang Branding"><div class="artikel-content"><span class="artikel-kategori">Branding</span><h3>5 Kesalahan Branding yang Harus Dihindari UMKM di Era Digital</h3><p>Di tengah persaingan ketat, branding yang kuat adalah kunci. Hindari lima kesalahan umum ini...</p><a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a></div></div>
+                    <div class="artikel-card glass-card" data-aos="fade-up" data-aos-delay="400"><img loading="lazy" src="assets/artikel-3.jpg" alt="Artikel tentang UI/UX"><div class="artikel-content"><span class="artikel-kategori">UI/UX</span><h3>Prinsip Desain Imersif: Menciptakan Pengalaman Bukan Sekadar Tampilan</h3><p>Lebih dari sekadar tombol dan menu, desain imersif mengajak pengguna masuk ke dalam sebuah cerita...</p><a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a></div></div>
                 </div>
             </div>
         </section>
     </main>
-    
-    <footer class="main-footer">
-        <p>© 2025 THOR.iQ – Powered by Amettha MEDIA</p>
-    </footer>
-
+    <footer class="main-footer"><p>© 2025 THOR.iQ – Powered by Amettha MEDIA</p></footer>
+    <a href="#" class="back-to-top-btn"><i class="fas fa-arrow-up"></i></a>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
