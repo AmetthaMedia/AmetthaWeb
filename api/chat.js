@@ -1,7 +1,7 @@
 // File: /api/chat.js
 // VERSI TIDAK AMAN - HANYA UNTUK TES LOKAL!
 
-const { GoogleGenerativeAI } = require('@google/gemini-2.0-flash');
+const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 // --- TEMPATKAN API KEY ANDA DI SINI ---
 // Ganti "API_KEY_ANDA_DI_SINI" dengan kunci API Anda yang sebenarnya.
@@ -59,7 +59,7 @@ module.exports = async (req, res) => {
             return res.status(400).json({ error: 'Message is required' });
         }
 
-        const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+        const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
         const chat = model.startChat({
             history: [
                 { role: "user", parts: [{ text: companyContext }] },
