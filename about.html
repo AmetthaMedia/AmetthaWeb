@@ -4,60 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tentang Kami - Amettha MEDIA</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Pelajari visi, misi, dan tim di balik Amettha MEDIA dan PT THOR INSPIRA QREATIVA (THOR.iQ). Kami adalah lab teknologi kreatif Anda.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="main-header sticky">
-        <nav class="navbar">
+        <nav class="navbar container">
             <a href="index.html" class="nav-logo">Amettha MEDIA</a>
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" class="active">Tentang Kami</a></li>
-                <li><a href="services.html">Layanan</a></li>
-                <li><a href="portfolio.html">Portofolio</a></li>
-                <li><a href="artikel.html">Artikel</a></li>
-                <li><a href="contact.html">Kontak</a></li>
-            </ul>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a><a href="about.html" class="nav-link active">Tentang</a><a href="services.html" class="nav-link">Layanan</a><a href="portfolio.html" class="nav-link">Portofolio</a><a href="artikel.html" class="nav-link">Artikel</a><a href="contact.html" class="nav-link">Kontak</a>
+            </div>
+            <div class="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
         </nav>
     </header>
-
     <main>
         <section class="page-section">
             <div class="container">
-                <h1 class="page-title">Tentang Amettha MEDIA & THOR.iQ</h1>
-                <div class="about-content">
-                    <div class="glass-card">
-                        <h3>PT THOR INSPIRA QREATIVA (THOR.iQ)</h3>
-                        <p>Perusahaan berbasis teknologi dan inovasi kreatif yang fokus pada solusi digital, kecerdasan buatan (AI), dan transformasi konten. Kami hadir untuk menjembatani dunia teknologi dan manusia melalui pendekatan human-centric berbasis AI.</p>
-                    </div>
-                    <div class="glass-card">
-                        <h4>Visi Kami</h4>
-                        <p>Menjadi pelopor transformasi digital humanistik melalui kreativitas, teknologi, dan kolaborasi.</p>
-                    </div>
-                    <div class="glass-card">
-                       <h4>Nilai Utama</h4>
-                        <ul>
-                            <li><i class="fas fa-lightbulb"></i> Inovatif & Berbasis Data</li>
-                            <li><i class="fas fa-handshake"></i> Kolaboratif & Transparan</li>
-                            <li><i class="fas fa-heart"></i> AI untuk Kemanusiaan</li>
-                            <li><i class="fas fa-pen-nib"></i> Kreativitas yang Bertanggung Jawab</li>
-                        </ul>
-                    </div>
-                     <div class="glass-card team-card">
-                       <h4>Struktur Inti</h4>
-                        <p><strong>CEO & Founder:</strong> Thoris Mannoor, B.Mus,Ed.</p>
-                        <p><strong>Manager Divisi Amettha MEDIA:</strong> Akbar Ramadhan</p>
-                    </div>
+                <h1 class="page-title" data-aos="fade-up">Tentang Amettha MEDIA & THOR.iQ</h1>
+                <div class="about-grid">
+                    <div class="about-card glass-card" data-aos="fade-up" data-aos-delay="100"><i class="fas fa-building"></i><h3>PT THOR INSPIRA QREATIVA (THOR.iQ)</h3><p>Perusahaan induk kami yang fokus pada solusi digital, kecerdasan buatan (AI), dan transformasi konten melalui pendekatan human-centric.</p></div>
+                    <div class="about-card glass-card" data-aos="fade-up" data-aos-delay="200"><i class="fas fa-rocket"></i><h4>Visi Kami</h4><p>Menjadi pelopor transformasi digital humanistik melalui kreativitas, teknologi, dan kolaborasi.</p></div>
+                    <div class="about-card full-width glass-card" data-aos="fade-up"><i class="fas fa-gem"></i><h4>Nilai Utama Kami</h4><div class="values-list"><span><i class="fas fa-lightbulb"></i> Inovatif & Data-driven</span><span><i class="fas fa-handshake"></i> Kolaboratif & Transparan</span><span><i class="fas fa-heart"></i> AI untuk Kemanusiaan</span><span><i class="fas fa-pen-nib"></i> Kreativitas Bertanggung Jawab</span></div></div>
+                    <div class="about-card glass-card" data-aos="fade-up" data-aos-delay="100"><i class="fas fa-user-tie"></i><h4>Struktur Inti</h4><p><strong>CEO & Founder:</strong> Thoris Mannoor, B.Mus,Ed.</p><p><strong>Manager Amettha MEDIA:</strong> Akbar Ramadhan</p></div>
+                    <div class="about-card glass-card" data-aos="fade-up" data-aos-delay="200"><i class="fas fa-question-circle"></i><h4>Mengapa Memilih Kami?</h4><p>Karya orisinal berbasis AI yang efisien & adaptif, ramah untuk UMKM hingga korporasi, dan siap untuk ekspansi global.</p></div>
                 </div>
             </div>
         </section>
     </main>
-    
-    <footer class="main-footer">
-        <p>© 2025 THOR.iQ – Powered by Amettha MEDIA</p>
-    </footer>
-
+    <footer class="main-footer"><p>© 2025 THOR.iQ – Powered by Amettha MEDIA</p></footer>
+    <a href="#" class="back-to-top-btn"><i class="fas fa-arrow-up"></i></a>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
