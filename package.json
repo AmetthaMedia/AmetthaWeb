@@ -1,0 +1,9 @@
+{
+  "name": "amettha-serverless-chatbot",
+  "version": "1.0.0",
+  "description": "Serverless function for Amettha MEDIA's Gemini chatbot.",
+  "main": "api/chat.js",
+  "dependencies": {
+    "@google/generative-ai": "^0.12.0"
+  }
+}
