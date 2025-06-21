@@ -4,63 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio - Amettha MEDIA</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Lihat kumpulan karya dan proyek website (artefak digital) yang telah berhasil kami wujudkan untuk klien dari berbagai industri.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="main-header sticky">
-        <nav class="navbar">
+        <nav class="navbar container">
             <a href="index.html" class="nav-logo">Amettha MEDIA</a>
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">Tentang Kami</a></li>
-                <li><a href="services.html">Layanan</a></li>
-                <li><a href="portfolio.html" class="active">Portofolio</a></li>
-                <li><a href="artikel.html">Artikel</a></li>
-                <li><a href="contact.html">Kontak</a></li>
-            </ul>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a><a href="about.html" class="nav-link">Tentang</a><a href="services.html" class="nav-link">Layanan</a><a href="portfolio.html" class="nav-link active">Portofolio</a><a href="artikel.html" class="nav-link">Artikel</a><a href="contact.html" class="nav-link">Kontak</a>
+            </div>
+            <div class="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
         </nav>
     </header>
-
     <main>
         <section class="page-section">
             <div class="container">
-                <h1 class="page-title">Artefak Digital Kami</h1>
-                <p class="page-subtitle">Kumpulan proyek website dan solusi digital yang telah kami wujudkan.</p>
+                <h1 class="page-title" data-aos="fade-up">Artefak Digital Kami</h1>
+                <p class="page-subtitle" data-aos="fade-up" data-aos-delay="100">Kumpulan proyek website dan solusi digital yang telah kami wujudkan.</p>
                 <div class="portfolio-grid">
-                    <div class="portfolio-card">
-                        <img src="assets/portfolio-1.jpg" alt="Proyek Website E-commerce">
-                        <div class="portfolio-info">
-                            <h3>E-commerce Platform "NusaMart"</h3>
-                            <p>Platform toko online modern dengan integrasi payment gateway dan manajemen stok cerdas.</p>
-                            <a href="#" class="btn btn-primary" target="_blank">Lihat Situs <i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                    <div class="portfolio-card">
-                        <img src="assets/portfolio-2.jpg" alt="Proyek Website Company Profile">
-                        <div class="portfolio-info">
-                            <h3>Company Profile "Quantum Leap"</h3>
-                            <p>Website korporat dengan desain futuristik, animasi interaktif, dan sistem manajemen konten.</p>
-                            <a href="#" class="btn btn-primary" target="_blank">Lihat Situs <i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                    <div class="portfolio-card">
-                        <img src="assets/portfolio-3.jpg" alt="Proyek Landing Page">
-                        <div class="portfolio-info">
-                            <h3>Landing Page "Astro Event"</h3>
-                            <p>Halaman promosi event dengan integrasi formulir pendaftaran dan countdown timer interaktif.</p>
-                            <a href="#" class="btn btn-primary" target="_blank">Lihat Situs <i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
+                    <div class="portfolio-card" data-aos="fade-up" data-aos-delay="200"><img loading="lazy" src="assets/portfolio-1.jpg" alt="Proyek Website E-commerce"><div class="portfolio-info"><h3>E-commerce Platform "NusaMart"</h3><p>Platform toko online modern dengan integrasi payment gateway dan manajemen stok cerdas.</p><a href="#" class="btn btn-primary" target="_blank">Lihat Situs <i class="fas fa-external-link-alt"></i></a></div></div>
+                    <div class="portfolio-card" data-aos="fade-up" data-aos-delay="300"><img loading="lazy" src="assets/portfolio-2.jpg" alt="Proyek Website Company Profile"><div class="portfolio-info"><h3>Company Profile "Quantum Leap"</h3><p>Website korporat dengan desain futuristik, animasi interaktif, dan sistem manajemen konten.</p><a href="#" class="btn btn-primary" target="_blank">Lihat Situs <i class="fas fa-external-link-alt"></i></a></div></div>
+                    <div class="portfolio-card" data-aos="fade-up" data-aos-delay="400"><img loading="lazy" src="assets/portfolio-3.jpg" alt="Proyek Landing Page"><div class="portfolio-info"><h3>Landing Page "Astro Event"</h3><p>Halaman promosi event dengan integrasi formulir pendaftaran dan countdown timer interaktif.</p><a href="#" class="btn btn-primary" target="_blank">Lihat Situs <i class="fas fa-external-link-alt"></i></a></div></div>
                 </div>
             </div>
         </section>
     </main>
-    
-    <footer class="main-footer">
-        <p>© 2025 THOR.iQ – Powered by Amettha MEDIA</p>
-    </footer>
-
+    <footer class="main-footer"><p>© 2025 THOR.iQ – Powered by Amettha MEDIA</p></footer>
+    <a href="#" class="back-to-top-btn"><i class="fas fa-arrow-up"></i></a>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
