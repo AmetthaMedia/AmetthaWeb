@@ -14,8 +14,8 @@
 </head>
 <body>
     <video autoplay muted loop id="bg-video">
-  <source src="videoametha.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+    <source src="videoametha.mp4" type="video/mp4">
+    Your browser does not support the video tag.
     </video>
     <header class="main-header sticky">
         <nav class="navbar container">
@@ -47,3 +47,21 @@
     <script src="script.js"></script>
 </body>
 </html>
+<style>
+  #bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.3; /* Sesuaikan tingkat transparansi */
+    pointer-events: none;
+  }
+
+  .content-wrapper {
+    position: relative;
+    z-index: 1;
+  }
+</style>
